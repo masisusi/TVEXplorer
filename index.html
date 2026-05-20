@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Explorer</title>
+    <link rel="stylesheet" href="newestStyle.css">
+</head>
+<body>
+    <!-- Navigation container for logo and top-level buttons -->
+    <nav class="navbar">
+        <div class="logo">TV <span>EXPLORER</span></div>
+        <div class="nav-controls">
+            <button id="showFavsBtn">❤️ Favorites</button>
+            <button id="themeToggle">🌓 Theme</button>
+        </div>
+    </nav>
+
+    <!-- Header area specifically for search interactions -->
+    <header class="hero">
+        <h2>Discovery Awaits</h2>
+
+        <div class="search-wrap">
+            <input type="text" id="userInput" placeholder="Type a show...">
+            <button id="fetchBtn">Search</button>
+            <button id="clearBtn" class="secondary">Clear</button>
+        </div>
+
+        <!-- Container for clickable history buttons (injected via JS)-->
+        <div id="historyPanel" class="history-container"></div>
+
+        <!-- Paragraph to show search status or error messages -->
+        <p id="status"></p>
+    </header>
+    <!-- Main grid container where TV show cards are rendered -->
+    <main id="display" class="grid-container"></main>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <p id="modalText"></p>
+        </div>
+    </div>
+
+    <!-- Link to the JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
