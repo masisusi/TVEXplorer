@@ -31,19 +31,3 @@ I did, however, improve my understanding of event handling by replacing inline o
 One challenge was staying consistent with the workflow, especially since I was working on this project alongside other tasks. If I had more time, I would improve the user experience by adding better error handling and loading states.
 
 Overall, the project strengthened my basic JavaScript skills and gave me more confidence in building small interactive web applications.
-
----
-
-## Self-Assessment
-
-| Category | Score | Justification |
-|----------|------|--------------|
-| A. Core Functionality | 8/10 | Search and favorites work correctly. Some improvements could be made with error handling and loading states. |
-| B. Code Quality and Architecture | 4/5 | Code is mostly clean and uses addEventListener instead of inline handlers. Minor improvements in structure could be made. |
-| C. UX and Accessibility | 3/5 | Basic UI works, but accessibility and feedback (e.g. loading states) could be improved. |
-| D. Data Handling and Persistence | 3/4 | Favorites are stored in localStorage. Some additional validation and error handling could be added. |
-| E. Documentation | 2/3 | README covers main aspects but could be expanded with more visuals or details. |
-| F. Deployment | 3/3 | Project is deployed and accessible via GitHub Pages. |
-| G. Demo Video and Documentation | 2/5 | Basic demo provided, but could be improved with more structured explanation and reflection. |
-
-**Total: ~25/35**
